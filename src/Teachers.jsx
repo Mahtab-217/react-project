@@ -1,6 +1,9 @@
-export default function Teachers() {
+export default function Teachers(props) {
      return (
-        <h1>Teachers List</h1>
+       <h2>{props.tList.name}</h2>,
+       <h2>{props.tList.lastName}</h2>,
+       <h2>{props.tList.age}</h2>,
+       <h2>{props.tList.phone}</h2>
        
      )
 } 

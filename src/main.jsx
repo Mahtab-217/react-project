@@ -38,6 +38,6 @@ import Teachers from './Teachers.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Teachers/>
+    <Teachers tList={teachersList}/>
   </StrictMode>,
 )
